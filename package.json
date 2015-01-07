@@ -1,0 +1,26 @@
+{
+  "name": "ksana-parser-docx",
+  "version": "1.0.0",
+  "description": "convert docx to a simpler xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksanaforge/ksana-parser-docx"
+  },
+  "keywords": [
+    "docx"
+  ],
+  "author": "yapcheahsheN@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksanaforge/ksana-parser-docx/issues"
+  },
+  "dependencies":{
+    "sax": "*",
+    "unzip": "*"
+  },
+  "homepage": "https://github.com/ksanaforge/ksana-parser-docx"
+}
