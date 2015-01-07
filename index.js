@@ -1,0 +1,1 @@
+module.exports={convertToXML:require("./lib/convert2xml")};
