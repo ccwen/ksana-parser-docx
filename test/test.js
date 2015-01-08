@@ -1,7 +1,7 @@
-var docx2kdb=require("../lib/index");
+var docx2kdb=require("../index");
 console.time("convert");
-docx2kdb.convertToXML("../sample/sample.docx",{},function(session){
+docx2kdb.convertToXML("../sample/sample.docx",{},function(output){
 	//console.log(session.pcount);
-	console.log(session.output.join(""));
+	console.log(output.join(""));
 	console.timeEnd("convert");	
 });
